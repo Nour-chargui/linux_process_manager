@@ -7,6 +7,7 @@
 #include <dirent.h>
 #include <unistd.h>
 #include <ctype.h>
+#include <signal.h>
 
 typedef struct {
     int pid;

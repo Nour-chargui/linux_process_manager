@@ -50,6 +50,7 @@ int get_process_list(ProcessInfo **list) {
 }
 
 void free_process_list(ProcessInfo *list, int count) {
+    (void)count; // Mark parameter as unused to avoid warning
     free(list);
 }
 
